@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="ysQ-Cw-WiV" id="hxE-FG-ycR"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Check List" id="BLH-Cs-312"/>
+                    <navigationItem key="navigationItem" title="Check List" id="BLH-Cs-312">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="dzR-Ir-KTd">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonTapped:" destination="ysQ-Cw-WiV" id="zee-tF-hkc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cJr-Tr-OVC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

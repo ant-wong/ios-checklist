@@ -12,6 +12,8 @@
 		9597C86E22B4B2CF00624ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9597C86C22B4B2CF00624ACA /* Main.storyboard */; };
 		9597C87022B4B2D000624ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9597C86F22B4B2D000624ACA /* Assets.xcassets */; };
 		9597C87322B4B2D000624ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9597C87122B4B2D000624ACA /* LaunchScreen.storyboard */; };
+		9597C87B22B4CBFB00624ACA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9597C87A22B4CBFB00624ACA /* Item.swift */; };
+		9597C88122B4ED2400624ACA /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9597C87F22B4ED2400624ACA /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		9597C86F22B4B2D000624ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9597C87222B4B2D000624ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9597C87422B4B2D000624ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9597C87A22B4CBFB00624ACA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9597C88022B4ED2400624ACA /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +58,40 @@
 		9597C86722B4B2CF00624ACA /* ListOfLists */ = {
 			isa = PBXGroup;
 			children = (
+				9597C87D22B4CC4A00624ACA /* Controllers */,
+				9597C87C22B4CC0400624ACA /* DataModel */,
 				9597C86822B4B2CF00624ACA /* AppDelegate.swift */,
-				9597C86A22B4B2CF00624ACA /* TodoListViewController.swift */,
-				9597C86C22B4B2CF00624ACA /* Main.storyboard */,
+				9597C87E22B4CC6C00624ACA /* View */,
 				9597C86F22B4B2D000624ACA /* Assets.xcassets */,
 				9597C87122B4B2D000624ACA /* LaunchScreen.storyboard */,
 				9597C87422B4B2D000624ACA /* Info.plist */,
 			);
 			path = ListOfLists;
+			sourceTree = "<group>";
+		};
+		9597C87C22B4CC0400624ACA /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				9597C87A22B4CBFB00624ACA /* Item.swift */,
+				9597C87F22B4ED2400624ACA /* DataModel.xcdatamodeld */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
+		9597C87D22B4CC4A00624ACA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9597C86A22B4B2CF00624ACA /* TodoListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9597C87E22B4CC6C00624ACA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9597C86C22B4B2CF00624ACA /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +166,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9597C86B22B4B2CF00624ACA /* TodoListViewController.swift in Sources */,
+				9597C88122B4ED2400624ACA /* DataModel.xcdatamodeld in Sources */,
+				9597C87B22B4CBFB00624ACA /* Item.swift in Sources */,
 				9597C86922B4B2CF00624ACA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,6 +368,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9597C87F22B4ED2400624ACA /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9597C88022B4ED2400624ACA /* DataModel.xcdatamodel */,
+			);
+			currentVersion = 9597C88022B4ED2400624ACA /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9597C85D22B4B2CF00624ACA /* Project object */;
 }
