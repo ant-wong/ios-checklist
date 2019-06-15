@@ -14,6 +14,7 @@
 		9597C87322B4B2D000624ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9597C87122B4B2D000624ACA /* LaunchScreen.storyboard */; };
 		9597C87B22B4CBFB00624ACA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9597C87A22B4CBFB00624ACA /* Item.swift */; };
 		9597C88122B4ED2400624ACA /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9597C87F22B4ED2400624ACA /* DataModel.xcdatamodeld */; };
+		9597C8A422B57EC400624ACA /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9597C8A322B57EC400624ACA /* CategoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9597C87422B4B2D000624ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9597C87A22B4CBFB00624ACA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		9597C88022B4ED2400624ACA /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		9597C8A322B57EC400624ACA /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		9597C87D22B4CC4A00624ACA /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				9597C8A322B57EC400624ACA /* CategoryViewController.swift */,
 				9597C86A22B4B2CF00624ACA /* TodoListViewController.swift */,
 			);
 			path = Controllers;
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9597C8A422B57EC400624ACA /* CategoryViewController.swift in Sources */,
 				9597C86B22B4B2CF00624ACA /* TodoListViewController.swift in Sources */,
 				9597C88122B4ED2400624ACA /* DataModel.xcdatamodeld in Sources */,
 				9597C87B22B4CBFB00624ACA /* Item.swift in Sources */,
